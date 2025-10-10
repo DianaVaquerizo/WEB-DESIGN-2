@@ -135,7 +135,7 @@ body {
 .nav-link:hover,
 .nav-link.active {
   background: var(--color-primary);
-  color: var(--white);
+  color: var(--color-accent);
 }
 
 /* ===== STYLE QUERIES: CONTEXTUAL COMPONENT ADAPTATION ===== */
@@ -148,7 +148,7 @@ body {
 /* Light theme container - components adapt automatically */
 @container style(--color-surface: #f8fafc) {
   .section-title {
-    color: var(--color-text);
+    color: var(--color-surface);
     text-shadow: none;
   }
 
@@ -210,7 +210,7 @@ body {
 }
 
 /* ===== SECTION STYLES ===== */
-.home-section {
+.home {
   background: linear-gradient(135deg, var(--color-primary) 0%, #1e40af 100%);
   color: var(--white);
   text-align: center;
