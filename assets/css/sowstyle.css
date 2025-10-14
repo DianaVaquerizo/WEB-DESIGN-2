@@ -16,7 +16,12 @@ h1 {
 h2 {
   font-family: poppins;
   color: #1f1a13;
-  font-size: 2rem;
+  font-size: 1, 5rem;
+}
+h3 {
+  font-family: poppins;
+  color: #1f1a13;
+  font-size: 1, 2rem;
 }
 p {
   font-family: poppins;
@@ -40,7 +45,7 @@ main {
 
 /*sticky menu and title*/
 header {
-  background: #aac6fb;
+  background: #5d7e4d;
 }
 
 .site-header .container {
@@ -50,19 +55,19 @@ header {
   text-align: left;
 }
 nav {
-  position: sticky;
+  position: fixed;
   top: 0;
   left: 0px;
   width: 100%;
   z-index: 1000;
   align-content: center;
   text-align: center;
-  background: #aac6fb;
+  background: #5d7e4d;
 }
 nav ul {
   list-style: none;
   margin-top: 12px;
-  padding-top: 12px;
+  padding-top: 0px;
   display: flex;
 }
 nav ul li {
@@ -72,15 +77,15 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-family: sans-serif;
-  color: #1f1a13;
-  font-size: 1.4rem;
+  color: rgb(254, 249, 238);
+  font-size: 1rem;
 }
 html {
   scroll-behavior: smooth;
 }
 nav ul li a:hover,
 nav ul li a:focus {
-  color: #007acc;
+  color: #5d7e4d;
   outline: none;
 }
 ul {
@@ -94,14 +99,15 @@ ul {
 
 ul li a {
   text-decoration: none;
-  padding: 10px 15px; /* optional padding inside links */
+  padding: 10px 100px; /* optional padding inside links */
   display: block;
 }
 .title2 {
   text-align: center;
-  margin: 12px;
   padding-top: 24px;
-  font-size: 3rem;
+  margin: 6px;
+  margin-top: 24px;
+  font-size: 2rem;
   text-align: center;
 }
 
@@ -111,15 +117,16 @@ ul li a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80vh;
-  background: #aac6fb;
+  height: 100vh;
+  background: #5d7e4d;
   color: #1f1a13;
+  margin-top: -3px;
 }
 .title {
-  font-size: 5rem;
-  text-transform: uppercase;
+  font-size: 3rem;
   opacity: 0;
   animation: fadeIn 2s forwards ease-in;
+  color: rgb(254, 249, 238);
 }
 @keyframes fadeIn {
   to {
@@ -159,7 +166,21 @@ nav ul li a:focus {
   height: auto;
   border: 1px solid #ccc;
 }
+
 /*iframe*/
 iframe {
   border-radius: 12px;
+}
+
+footer {
+  background-color: #5d7e4d;
+  font: rgb(254, 249, 238);
+  padding: 24px;
+}
+
+/* Rounded border */
+hr.rounded {
+  border-top: 2px solid #5d7e4d;
+  border-radius: 2px;
+  margin: 48px;
 }
