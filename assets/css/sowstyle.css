@@ -71,7 +71,7 @@ nav ul {
   align-items: center;
   list-style: none;
   margin: 0;
-  padding: 1rem 5rem;
+  padding: 1rem 10rem;
   padding-top: 2rem;
 }
 
@@ -149,6 +149,10 @@ ul li a {
   text-align: center;
 }
 
+.analysis-subtitle {
+  margin-bottom: -1rem;
+}
+
 /*EXELENCE CRITERIA*/
 
 /* Outer container*/
@@ -175,6 +179,7 @@ ul li a {
   background-color: rgb(254, 249, 238);
   border-radius: 12px;
   padding: 24px;
+  padding-top: 0px;
   text-align: center;
 }
 
@@ -209,7 +214,7 @@ ul li a {
 
 /*CONCLUSION*/
 .conclusion-box {
-  background-color: rgb(255, 238, 202); /* light background for contrast */
+  background-color: rgb(255, 238, 202);
   border-radius: 12px;
   padding: 1.5rem;
   margin-top: 2rem;
@@ -256,7 +261,12 @@ nav ul li a:focus {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  margin: 32px;
+  margin: 0px;
+}
+
+.h3-analysis {
+  margin-bottom: 6px;
+  margin-top: 24px;
 }
 
 .analysis-text,
@@ -267,13 +277,14 @@ nav ul li a:focus {
 .screenshots {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .screenshots img {
   width: 100%;
   aspect-ratio: 16 / 9;
   object-fit: cover;
+  border-radius: 12px;
 }
 
 /* Desktop */
@@ -284,11 +295,11 @@ nav ul li a:focus {
   }
 
   .analysis-text {
-    width: 66.66%;
+    width: 58.33%;
   }
 
   .screenshots {
-    width: 33.33%;
+    width: 41.66%;
   }
 }
 
