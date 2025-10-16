@@ -22,11 +22,13 @@ h3 {
   font-family: poppins;
   color: #1f1a13;
   font-size: 1, 2rem;
+  color: #5d7e4d;
 }
 p {
   font-family: poppins;
   color: #1f1a13;
   line-height: 1.4rem;
+  text-align: justify;
 }
 li {
   font-family: poppins;
@@ -305,8 +307,9 @@ nav ul li a:focus {
 
 /*IFRAME*/
 iframe {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
   border-radius: 12px;
-  margin: 4rem 0;
   width: 100%;
   box-sizing: border-box;
   max-width: 100%;
@@ -318,7 +321,7 @@ footer {
   background-color: #5d7e4d;
   color: rgb(254, 249, 238);
   padding: 24px;
-  margin: -2rem;
+  margin: -1rem;
 }
 
 .footer-content {
@@ -327,6 +330,8 @@ footer {
   align-items: center;
   flex-wrap: wrap;
   gap: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .footer-content p {
