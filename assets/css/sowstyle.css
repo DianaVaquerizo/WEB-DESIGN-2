@@ -23,12 +23,15 @@ h3 {
   color: #1f1a13;
   font-size: 1, 2rem;
   color: #5d7e4d;
+  margin-bottom: 0.5rem;
+  margin-top: 3rem;
 }
 p {
   font-family: poppins;
   color: #1f1a13;
   line-height: 1.4rem;
   text-align: justify;
+  font-size: 0.9rem;
 }
 li {
   font-family: poppins;
@@ -218,8 +221,15 @@ ul li a {
 .conclusion-box {
   background-color: rgb(255, 238, 202);
   border-radius: 12px;
-  padding: 1.5rem;
-  margin-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  margin-top: 1rem;
+}
+
+.conclusion-h3 {
+  margin-top: 1rem;
 }
 
 /*COVER*/
@@ -262,13 +272,13 @@ nav ul li a:focus {
 .analysis-content {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 8rem;
   margin: 0px;
 }
 
 .h3-analysis {
   margin-bottom: 6px;
-  margin-top: 24px;
+  margin-top: 6rem;
 }
 
 .analysis-text,
@@ -279,7 +289,7 @@ nav ul li a:focus {
 .screenshots {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 6rem;
 }
 
 .screenshots img {
