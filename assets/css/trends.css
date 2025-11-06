@@ -166,8 +166,11 @@ body {
 }
 
 .image-layer-2 {
-  background-image: url("data:image/svg+xml, </svg>");
+  background-image: url("../img/flor2.svg");
   z-index: 2;
+  background-repeat: repeat;
+  align-content: center;
+  align-items: center;
 }
 
 .image-layer-3 {
@@ -214,4 +217,23 @@ body {
   .layer-front {
     font-size: 1.5rem;
   }
+}
+
+.glass-card {
+  /* Semi-transparent background - lets you see through */
+  background: rgba(131, 154, 255, 0.15);
+
+  /* THE GLASSMORPHISM MAGIC! */
+  backdrop-filter: blur(12px) saturate(150%);
+  -webkit-backdrop-filter: blur(12px) saturate(150%);
+
+  /* Subtle border adds definition */
+  border: 1px solid rgba(228, 91, 91, 0.4);
+
+  /* Modern rounded corners */
+  border-radius: 20px;
+
+  /* Depth with inner and outer shadow */
+  box-shadow: 0 8px 32px 0 rgba(22, 27, 105, 0.37),
+    inset 0 1px 0 0 rgba(255, 168, 213, 0.5);
 }
